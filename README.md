@@ -16,18 +16,7 @@ ROS / ROS 2 integration, controllers, middleware and planning tools.
 
 ROS / ROS 2, Controller, Middleware และเครื่องมือ Planning
 
-Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository is a focused resource directory and engineering guide. Linked SDKs, models and research implementations belong to their original creators.
-
-## 🗂️ Resource directory
-
-| Resource | What it provides | Keywords | Original source |
-| --- | --- | --- | --- |
-| [Unitree ROS 2](https://github.com/SSRobotic/unitree-ros2) | ROS 2 / DDS examples and message interfaces, including G1 / H1 examples. | G1, H1, ROS 2 | [unitreerobotics](https://github.com/unitreerobotics/unitree_ros2) |
-| [DOBOT Atom ROS 2](https://github.com/SSRobotic/dobot-atom-ros2) | DOBOT Atom ROS 2 model, simulation and integration collection. | Atom, ROS 2, Gazebo | [Dobot-Arm](https://github.com/Dobot-Arm/dobot_atom_ros2) |
-| [ros2_control](https://github.com/ros-controls/ros2_control) | ROS 2 hardware abstraction and controller framework for integrating robot hardware and simulation. | ROS 2, Controllers, Hardware interfaces | [ros-controls](https://github.com/ros-controls/ros2_control) |
-| [TienKung ROS](https://github.com/Open-X-Humanoid/TienKung_ROS) | TienKung ROS software and hardware-control modules. | TienKung, ROS, Control | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/TienKung_ROS) |
-| [MoveIt 2](https://github.com/moveit/moveit2) | ROS 2 motion-planning and manipulation framework. | ROS 2, Motion planning, Manipulation | [moveit](https://github.com/moveit/moveit2) |
-| [Isaac Sim ROS Workspaces](https://github.com/isaac-sim/IsaacSim-ros_workspaces) | ROS workspace packages for Isaac Sim integration; check the supported ROS distribution upstream. | Isaac Sim, ROS 2, Integration | [isaac-sim](https://github.com/isaac-sim/IsaacSim-ros_workspaces) |
+Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repository contains actual source files in `projects/`, with pinned upstream commits, retained licenses and an engineering guide. The imported implementations remain credited to their original creators.
 
 ## 📦 Code & models in this repository
 
@@ -45,6 +34,17 @@ cd humanoid-ros2
 ```
 
 Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
+
+## 🗂️ Resource directory
+
+| Resource | What it provides | Keywords | Original source |
+| --- | --- | --- | --- |
+| [Unitree ROS 2](https://github.com/SSRobotic/unitree-ros2) | ROS 2 / DDS examples and message interfaces, including G1 / H1 examples. | G1, H1, ROS 2, DDS | [unitreerobotics](https://github.com/unitreerobotics/unitree_ros2) |
+| [DOBOT Atom ROS 2](https://github.com/SSRobotic/dobot-atom-ros2) | DOBOT Atom ROS 2 model, simulation and integration collection. | Atom, ROS 2, Gazebo | [Dobot-Arm](https://github.com/Dobot-Arm/dobot_atom_ros2) |
+| [ros2_control](https://github.com/ros-controls/ros2_control) | ROS 2 hardware abstraction and controller framework for integrating robot hardware and simulation. | ROS 2, Controllers, Hardware interfaces | [ros-controls](https://github.com/ros-controls/ros2_control) |
+| [TienKung ROS](https://github.com/Open-X-Humanoid/TienKung_ROS) | TienKung ROS software and hardware-control modules. | TienKung, ROS, Control | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/TienKung_ROS) |
+| [MoveIt 2](https://github.com/moveit/moveit2) | ROS 2 motion-planning and manipulation framework. | ROS 2, Motion planning, Manipulation | [moveit](https://github.com/moveit/moveit2) |
+| [Isaac Sim ROS Workspaces](https://github.com/isaac-sim/IsaacSim-ros_workspaces) | ROS workspace packages for Isaac Sim integration; check the supported ROS distribution upstream. | Isaac Sim, ROS 2, Integration | [isaac-sim](https://github.com/isaac-sim/IsaacSim-ros_workspaces) |
 
 ## 🚀 Start here
 
