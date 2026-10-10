@@ -1,0 +1,21 @@
+{
+  "repository": "humanoid-ros2",
+  "url": "https://github.com/SSRobotic/humanoid-ros2",
+  "projects": [
+    {
+      "slug": "unitreerobotics/unitree_ros2",
+      "source_url": "https://github.com/unitreerobotics/unitree_ros2",
+      "commit": "da42f91fdf07bb0ac4f9dc113478314fdf5d075f",
+      "snapshot": "existing preserved collection",
+      "gitlinks": [],
+      "license": "See retained source notices",
+      "folder": "projects/unitree_ros2",
+      "file_count": 154,
+      "bytes": 3237928,
+      "lfs_pointers": []
+    }
+  ],
+  "source_file_count": 154,
+  "lfs_pointer_count": 0,
+  "materialized_file_count": 154
+}

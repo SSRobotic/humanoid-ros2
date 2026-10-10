@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">📡 ROS & Integration</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-6-f28c28?style=flat-square" alt="6 curated resources"></a>
@@ -28,6 +28,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [TienKung ROS](https://github.com/Open-X-Humanoid/TienKung_ROS) | TienKung ROS software and hardware-control modules. | TienKung, ROS, Control | [Open-X-Humanoid](https://github.com/Open-X-Humanoid/TienKung_ROS) |
 | [MoveIt 2](https://github.com/moveit/moveit2) | ROS 2 motion-planning and manipulation framework. | ROS 2, Motion planning, Manipulation | [moveit](https://github.com/moveit/moveit2) |
 | [Isaac Sim ROS Workspaces](https://github.com/isaac-sim/IsaacSim-ros_workspaces) | ROS workspace packages for Isaac Sim integration; check the supported ROS distribution upstream. | Isaac Sim, ROS 2, Integration | [isaac-sim](https://github.com/isaac-sim/IsaacSim-ros_workspaces) |
+
+## 📦 Code & models in this repository
+
+**154 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [unitreerobotics/unitree_ros2](projects/unitree_ros2) | 154 | [`da42f91fdf07`](https://github.com/unitreerobotics/unitree_ros2/tree/da42f91fdf07bb0ac4f9dc113478314fdf5d075f) | [LICENSE](projects/unitree_ros2/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-ros2.git
+cd humanoid-ros2
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 
